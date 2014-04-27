@@ -1,0 +1,31 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site 'http://community.opscode.com/api/v1'
+
+# cookbook 'chef-client'
+
+# cookbook 'apache2', '>= 1.0.0'
+
+# cookbook 'rvm',
+#   :git => 'https://github.com/fnichol/chef-rvm'
+
+# cookbook 'postgresql',
+#   :git => 'https://github.com/findsyou/cookbooks',
+#   :ref => 'postgresql-improvements'
+
+cookbook 'apt'
+cookbook 'build-essential'
+cookbook 'ohai'
+cookbook 'users'
+cookbook 'nginx'
+cookbook 'postgresql'
+cookbook 'sudo'
+cookbook 'users'
+cookbook 'nodejs'
+cookbook 'git'
+cookbook 'curl'
+cookbook 'rvm'
+cookbook 'imagemagick'
+cookbook 'database'
+cookbook 'rails4box', path: './site-cookbooks/rails4box'

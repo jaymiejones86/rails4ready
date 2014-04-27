@@ -1,0 +1,8 @@
+{
+  "run_list": [
+    "role[base]",
+    "role[webserver]",
+    "role[database]"
+  ],
+  "app_name" : "base-rails-4"
+}
