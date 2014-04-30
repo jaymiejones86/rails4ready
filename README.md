@@ -1,7 +1,7 @@
 # New Rails 4 Project Setup
 
 - Install vagrant
-- Install gems for provisioning ```gem install bundler librarian-chef knife-solo chef```
+- Install gems for provisioning ```gem install bundler librarian-chef knife-solo chef chef-vault```
 - create an initial cookbook ```librarian-chef init```
 - Install cookbooks ```librarian-chef install```
 - Create your vagrant box ```vagrant init```
